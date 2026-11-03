@@ -9,23 +9,23 @@ class Chorus < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/goadesign/chorus/releases/download/v0.6.1/chorus_0.6.1_darwin_arm64.tar.gz"
-      sha256 "36585088b5da13c90201015bfad517124bedf1899c0d0e2cb507099822e560d0"
+      url "https://github.com/goadesign/chorus/releases/download/v0.7.0/chorus_0.7.0_darwin_arm64.tar.gz"
+      sha256 "39f377273fb84c597005c274b753f45c23a5eb86215d0c8345953d9331f92284"
     end
     on_intel do
-      url "https://github.com/goadesign/chorus/releases/download/v0.6.1/chorus_0.6.1_darwin_amd64.tar.gz"
-      sha256 "0314952b939ef5fdce46d09f0c2acb301b2a4053097a2480bac779e8a617d063"
+      url "https://github.com/goadesign/chorus/releases/download/v0.7.0/chorus_0.7.0_darwin_amd64.tar.gz"
+      sha256 "6b7bf40d3876038e2a8acd598cc5ec64f449152b644eb690e7de57d32915c46b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/goadesign/chorus/releases/download/v0.6.1/chorus_0.6.1_linux_arm64.tar.gz"
-      sha256 "d5c452ad2c0ab2ded1764a35dcd503128d756c54b79321b709d6bea7c9f3caab"
+      url "https://github.com/goadesign/chorus/releases/download/v0.7.0/chorus_0.7.0_linux_arm64.tar.gz"
+      sha256 "e450f621d1f59187834a7c82f16e53cd29f1a2b6b3f7e64d8cb2fdb89affede9"
     end
     on_intel do
-      url "https://github.com/goadesign/chorus/releases/download/v0.6.1/chorus_0.6.1_linux_amd64.tar.gz"
-      sha256 "afa1b44ca053934af3e2901ca33ed895e02e341099a79d788a53452fa0291096"
+      url "https://github.com/goadesign/chorus/releases/download/v0.7.0/chorus_0.7.0_linux_amd64.tar.gz"
+      sha256 "35ea318733d710e24f870289e2e3d9950199dd327f715e667dc82c19aa7231cc"
     end
   end
 
@@ -36,8 +36,10 @@ class Chorus < Formula
   def caveats
     <<~EOS
       To register Chorus with your coding agents and start it in the background, run:
-        chorus setup -global && chorus up
-      The live dashboard is then at http://localhost:9440/
+        chorus up
+      Then open the live dashboard with:
+        chorus ui
+      Before running brew uninstall chorus, run: chorus down
     EOS
   end
 
