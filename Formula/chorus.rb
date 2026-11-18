@@ -9,23 +9,23 @@ class Chorus < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/goadesign/chorus/releases/download/v0.14.0/chorus_0.14.0_darwin_arm64.tar.gz"
-      sha256 "21977ec1220074004b80933a36d581139ea6f8e0b8c1ee097805246f61edf6e7"
+      url "https://github.com/goadesign/chorus/releases/download/v0.15.0/chorus_0.15.0_darwin_arm64.tar.gz"
+      sha256 "b7df63697526221aeb87a40270a1155c9f21e656e603199d5e885eda7b5a524d"
     end
     on_intel do
-      url "https://github.com/goadesign/chorus/releases/download/v0.14.0/chorus_0.14.0_darwin_amd64.tar.gz"
-      sha256 "7a136b8e67e89a54ac54770dabd8dec05685878d00e2038d628e501833965784"
+      url "https://github.com/goadesign/chorus/releases/download/v0.15.0/chorus_0.15.0_darwin_amd64.tar.gz"
+      sha256 "e9c2c71596a4204082e284851c11d40d97c92d15df819fea40a2037195a00122"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/goadesign/chorus/releases/download/v0.14.0/chorus_0.14.0_linux_arm64.tar.gz"
-      sha256 "e6a8b78ef6532d140b43817ae96d3f86b9f994937a2af7b949368134f51f5d6c"
+      url "https://github.com/goadesign/chorus/releases/download/v0.15.0/chorus_0.15.0_linux_arm64.tar.gz"
+      sha256 "dd10f6eea97763577f2a77969e5babefc5de5f8042e41403e14dc1b2ca605ac9"
     end
     on_intel do
-      url "https://github.com/goadesign/chorus/releases/download/v0.14.0/chorus_0.14.0_linux_amd64.tar.gz"
-      sha256 "526d56236c55f82ba2aa8f6e5f0db60685cb8bf9b90be466572a4550c3b3486d"
+      url "https://github.com/goadesign/chorus/releases/download/v0.15.0/chorus_0.15.0_linux_amd64.tar.gz"
+      sha256 "bc9fe4c72253d886fa335833a9bd77d3ffc4fd1e4cb5198fec1a342d7ce93d09"
     end
   end
 
